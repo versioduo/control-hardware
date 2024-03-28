@@ -1380,9 +1380,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1480,8 +1480,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1500,9 +1500,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1576,8 +1576,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1901,6 +1901,10 @@
 					(reference "#PWR0403")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0403")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1968,6 +1972,10 @@
 					(reference "R401")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "R401")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2030,6 +2038,10 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0401")
 					(unit 1)
 				)
@@ -2102,6 +2114,10 @@
 					(reference "C401")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "C401")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2168,6 +2184,10 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
+					(reference "D401")
+					(unit 1)
+				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "D401")
 					(unit 1)
 				)
@@ -2250,6 +2270,10 @@
 					(reference "U401")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "U401")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2319,6 +2343,10 @@
 					(reference "C402")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "C402")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2327,7 +2355,7 @@
 		(at 116.84 113.03 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2377,6 +2405,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 116.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef00c43f-cfcc-41c1-b1d4-51b03c417b0e")
 		)
@@ -2398,6 +2435,10 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
+					(reference "J401")
+					(unit 1)
+				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J401")
 					(unit 1)
 				)
@@ -2466,6 +2507,10 @@
 					(reference "#PWR0402")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0402")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2528,6 +2573,10 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
+					(reference "#PWR0404")
+					(unit 1)
+				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0404")
 					(unit 1)
 				)

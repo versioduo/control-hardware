@@ -301,9 +301,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -401,8 +401,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -421,9 +421,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -497,8 +497,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -717,6 +717,10 @@
 					(reference "#PWR0304")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0304")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -724,7 +728,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 175.26 109.22 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -774,12 +778,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0b2a967-b7e1-4123-83a3-098d9c982721")
 		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
+					(reference "J302")
+					(unit 1)
+				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J302")
 					(unit 1)
 				)
@@ -848,6 +865,10 @@
 					(reference "#PWR0301")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0301")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -910,6 +931,10 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0303")
 					(unit 1)
 				)
@@ -978,6 +1003,10 @@
 					(reference "#PWR0302")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0302")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -985,7 +1014,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 175.26 111.76 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1035,12 +1064,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4d7048d-e279-4283-84b8-34c6b144130f")
 		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
+					(reference "J303")
+					(unit 1)
+				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J303")
 					(unit 1)
 				)
@@ -1120,6 +1162,10 @@
 					(reference "U301")
 					(unit 1)
 				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "U301")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1127,7 +1173,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 175.26 106.68 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1177,12 +1223,25 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1cebc6d-3c31-442e-83ca-0fe7d0f31350")
 		)
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
+					(reference "J301")
+					(unit 1)
+				)
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J301")
 					(unit 1)
 				)
