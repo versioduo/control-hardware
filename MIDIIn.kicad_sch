@@ -1901,10 +1901,6 @@
 					(reference "#PWR0403")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0403")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1972,10 +1968,6 @@
 					(reference "R401")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "R401")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2038,10 +2030,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR0401")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0401")
 					(unit 1)
 				)
@@ -2114,10 +2102,6 @@
 					(reference "C401")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C401")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2184,10 +2168,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "D401")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "D401")
 					(unit 1)
 				)
@@ -2270,10 +2250,6 @@
 					(reference "U401")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "U401")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2343,10 +2319,6 @@
 					(reference "C402")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C402")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2355,7 +2327,7 @@
 		(at 116.84 113.03 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2438,10 +2410,6 @@
 					(reference "J401")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J401")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2507,10 +2475,6 @@
 					(reference "#PWR0402")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0402")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2573,10 +2537,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR0404")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0404")
 					(unit 1)
 				)

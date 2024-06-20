@@ -1920,10 +1920,6 @@
 					(reference "#PWR0203")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0203")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1987,10 +1983,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1002ed5a-7984-4d39-a94b-5f1a9a481740"
-					(reference "#PWR0209")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0209")
 					(unit 1)
 				)
@@ -2059,10 +2051,6 @@
 					(reference "#PWR0208")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0208")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2125,10 +2113,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1002ed5a-7984-4d39-a94b-5f1a9a481740"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0204")
 					(unit 1)
 				)
@@ -2196,10 +2180,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1002ed5a-7984-4d39-a94b-5f1a9a481740"
-					(reference "#PWR0207")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0207")
 					(unit 1)
 				)
@@ -2317,10 +2297,6 @@
 					(reference "U202")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "U202")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2385,10 +2361,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1002ed5a-7984-4d39-a94b-5f1a9a481740"
-					(reference "R201")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "R201")
 					(unit 1)
 				)
@@ -2458,10 +2430,6 @@
 					(reference "#PWR0201")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0201")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2469,7 +2437,7 @@
 		(lib_id "V2_Connector_Header_1.27mm:2x05_Horizontal")
 		(at 152.4 156.21 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2562,10 +2530,6 @@
 					(reference "J201")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "J201")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2632,10 +2596,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1002ed5a-7984-4d39-a94b-5f1a9a481740"
-					(reference "C201")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "C201")
 					(unit 1)
 				)
@@ -2706,10 +2666,6 @@
 					(reference "R203")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "R203")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2773,10 +2729,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1002ed5a-7984-4d39-a94b-5f1a9a481740"
-					(reference "#PWR0206")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0206")
 					(unit 1)
 				)
@@ -2846,10 +2798,6 @@
 					(reference "#PWR0202")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0202")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2913,10 +2861,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1002ed5a-7984-4d39-a94b-5f1a9a481740"
-					(reference "#PWR0205")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0205")
 					(unit 1)
 				)
@@ -2984,10 +2928,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/1002ed5a-7984-4d39-a94b-5f1a9a481740"
-					(reference "R202")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "R202")
 					(unit 1)
 				)

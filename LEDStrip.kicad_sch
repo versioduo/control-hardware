@@ -717,10 +717,6 @@
 					(reference "#PWR0304")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0304")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -728,7 +724,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 175.26 109.22 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -793,10 +789,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "J302")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J302")
 					(unit 1)
 				)
@@ -865,10 +857,6 @@
 					(reference "#PWR0301")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0301")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -931,10 +919,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "#PWR0303")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0303")
 					(unit 1)
 				)
@@ -1003,10 +987,6 @@
 					(reference "#PWR0302")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0302")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1014,7 +994,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 175.26 111.76 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1079,10 +1059,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "J303")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J303")
 					(unit 1)
 				)
@@ -1162,10 +1138,6 @@
 					(reference "U301")
 					(unit 1)
 				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "U301")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1173,7 +1145,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 175.26 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1238,10 +1210,6 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "J301")
-					(unit 1)
-				)
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "J301")
 					(unit 1)
 				)
