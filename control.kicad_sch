@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 control")
-		(date "2024-03-28")
-		(rev "4")
+		(date "2024-07-17")
+		(rev "5")
 		(company "Versio Duo")
 		(comment 1 "Instrument Controller")
 	)
@@ -5078,6 +5078,126 @@
 				)
 			)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 95.25 22.86)
@@ -5242,6 +5362,12 @@
 		(uuid "a819076d-37ea-43c7-ac36-cecde3b626c5")
 	)
 	(junction
+		(at 204.47 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9bb90a8-7e85-4396-89d1-51b266d60508")
+	)
+	(junction
 		(at 186.69 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5370,10 +5496,6 @@
 	(no_connect
 		(at 59.69 92.71)
 		(uuid "ae1fe753-76f3-4d89-a8bc-66ee7d24b7a9")
-	)
-	(no_connect
-		(at 204.47 87.63)
-		(uuid "dff133d1-f611-491d-8b0e-22169d1c0faa")
 	)
 	(wire
 		(pts
@@ -6978,7 +7100,7 @@
 		(lib_id "V2_Production:Layer_Numbers")
 		(at 213.36 179.07 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7448,7 +7570,7 @@
 		(lib_id "V2_Mechanical:MountingHole_3mm")
 		(at 250.19 178.435 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7725,7 +7847,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 212.09 163.195 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7797,7 +7919,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 250.825 151.13 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8137,7 +8259,7 @@
 		(lib_id "V2_Spacer_Wurth:9774030243")
 		(at 191.77 163.83 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8550,7 +8672,7 @@
 		(lib_id "V2_Cortex_Debug:Cortex_Debug")
 		(at 127 97.79 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8704,7 +8826,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 30.48 160.02 180)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8778,7 +8900,7 @@
 		(lib_id "V2_Artwork:Board_control")
 		(at 172.085 173.355 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9252,7 +9374,7 @@
 		(lib_id "V2_Spacer_Wurth:9774030243")
 		(at 191.77 176.53 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9592,7 +9714,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 231.14 172.72 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9665,7 +9787,7 @@
 		(lib_id "V2_Production:Order_Number")
 		(at 172.72 186.69 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9867,7 +9989,7 @@
 		(lib_id "V2_Spacer_Wurth:9774030243")
 		(at 191.77 189.23 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9932,6 +10054,71 @@
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "SPACER104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 204.47 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "855a580e-a64f-4d24-85f6-f5b3601cc682")
+		(property "Reference" "#FLG0104"
+			(at 204.47 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 204.978 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78bfa725-c6f4-4e53-afc0-965288fb63ee")
+		)
+		(instances
+			(project "control"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#FLG0104")
 					(unit 1)
 				)
 			)
@@ -10548,7 +10735,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.225 152.4 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10680,6 +10867,73 @@
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 204.47 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a23b4e86-4890-4d0e-aaaf-e9d03f94c73d")
+		(property "Reference" "#PWR0135"
+			(at 200.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 208.28 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f77a2e96-d5b1-4806-8e92-a5e42c0a2cae")
+		)
+		(instances
+			(project "control"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -11155,7 +11409,7 @@
 		(lib_id "V2_Mechanical:MountingHole_3mm")
 		(at 250.19 165.735 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11364,7 +11618,7 @@
 		(lib_id "V2_Spacer_Wurth:9774030243")
 		(at 191.77 151.13 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11507,7 +11761,7 @@
 		(lib_id "V2_Connector_WAGO:2065")
 		(at 30.48 152.4 180)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11581,7 +11835,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.225 165.1 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11784,13 +12038,13 @@
 		(lib_id "V2_Connector_USB:JAE_DX07S016JA3")
 		(at 191.77 102.87 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e26cd7e8-e2c0-4ed6-a5a4-72dbf23c703c")
 		(property "Reference" "J102"
-			(at 184.15 80.01 0)
+			(at 183.896 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11798,7 +12052,7 @@
 			)
 		)
 		(property "Value" "JAE_DX07S016JA3"
-			(at 181.61 82.55 0)
+			(at 181.61 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +12142,7 @@
 		(lib_id "V2_Artwork:Dot")
 		(at 231.14 179.07 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12165,7 +12419,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.225 176.53 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12541,7 +12795,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 231.14 153.797 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12812,7 +13066,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 172.72 154.94 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
