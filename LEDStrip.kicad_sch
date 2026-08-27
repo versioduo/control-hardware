@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 control")
-		(date "2026-03-30")
-		(rev "2026-03-30")
+		(date "2026-08-27")
+		(rev "2026-08-27")
 		(company "Versio Duo")
+		(comment 1 "Instrument Controller")
 	)
 	(lib_symbols
 		(symbol "V2_74xGxx:74AHC1G125"
@@ -97,6 +98,28 @@
 			)
 			(property "Manufacturer" "Texas Instruments"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "74xGxx:${SYMBOL_NAME}"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "8mA"
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -236,6 +259,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "V2_Capacitor:1608_0u1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0u1"
+				(at 2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Capacitor_SMD:C_1608"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 -13.462 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "810-CGA3E2X7R1H104MA"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Product" "CGA3E2X7R1H104M080AA"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "50V"
+				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1608_0u1_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1608_0u1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "V2_Connector_WAGO:2065"
 			(pin_numbers
 				(hide yes)
@@ -270,7 +504,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -303,7 +537,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -314,7 +548,29 @@
 				)
 			)
 			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9A"
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -628,7 +884,7 @@
 		)
 	)
 	(junction
-		(at 130.81 115.57)
+		(at 130.81 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a60579ac-7707-4264-871b-7667b5f35121")
@@ -645,7 +901,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 121.92 111.76)
+			(xy 113.03 125.73) (xy 121.92 125.73)
 		)
 		(stroke
 			(width 0)
@@ -655,7 +911,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 130.81 110.49)
+			(xy 130.81 118.11) (xy 130.81 124.46)
 		)
 		(stroke
 			(width 0)
@@ -665,7 +921,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 124.46) (xy 194.31 86.36)
+			(xy 194.31 138.43) (xy 194.31 86.36)
 		)
 		(stroke
 			(width 0)
@@ -675,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 124.46 115.57)
+			(xy 124.46 120.65) (xy 124.46 129.54)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +941,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 161.29 111.76)
+			(xy 135.89 125.73) (xy 161.29 125.73)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 115.57) (xy 130.81 115.57)
+			(xy 124.46 129.54) (xy 130.81 129.54)
 		)
 		(stroke
 			(width 0)
@@ -705,7 +961,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 86.36) (xy 111.76 124.46)
+			(xy 111.76 86.36) (xy 111.76 138.43)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +971,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 113.03) (xy 130.81 115.57)
+			(xy 130.81 127) (xy 130.81 129.54)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +981,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 124.46) (xy 194.31 124.46)
+			(xy 111.76 138.43) (xy 194.31 138.43)
 		)
 		(stroke
 			(width 0)
@@ -735,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 124.46 106.68)
+			(xy 129.54 120.65) (xy 124.46 120.65)
 		)
 		(stroke
 			(width 0)
@@ -744,7 +1000,7 @@
 		(uuid "ec34dac3-7036-49c7-b382-42ee33d5321d")
 	)
 	(label "WS2812-data"
-		(at 137.16 111.76 0)
+		(at 137.16 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -755,7 +1011,7 @@
 	)
 	(hierarchical_label "LED-Data"
 		(shape input)
-		(at 113.03 111.76 180)
+		(at 113.03 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -766,7 +1022,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 161.29 109.22 270)
+		(at 161.29 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -775,8 +1031,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07833bbc-3842-4936-a51f-4ce64bbefb67")
-		(property "Reference" "#PWR303"
-			(at 154.94 109.22 0)
+		(property "Reference" "#PWR049"
+			(at 154.94 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -787,7 +1043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 109.22 90)
+			(at 154.94 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -798,7 +1054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 109.22 0)
+			(at 161.29 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -809,7 +1065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 109.22 0)
+			(at 161.29 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -820,7 +1076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 109.22 0)
+			(at 161.29 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -836,7 +1092,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "#PWR303")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -844,7 +1100,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 166.37 109.22 0)
+		(at 166.37 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -853,8 +1109,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28a70096-0534-4dae-afbd-e22e05ea2e85")
-		(property "Reference" "J302"
-			(at 172.72 109.22 0)
+		(property "Reference" "J7"
+			(at 172.72 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -865,7 +1121,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 182.118 109.22 0)
+			(at 182.118 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -875,7 +1131,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 166.37 113.03 0)
+			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -886,7 +1142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 113.03 0)
+			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -897,7 +1153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 109.22 0)
+			(at 166.37 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -908,7 +1164,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 166.37 122.428 0)
+			(at 166.37 136.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -919,7 +1175,29 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 166.37 125.73 0)
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 166.37 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 166.37 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -935,15 +1213,15 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "J302")
+					(reference "J7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_power:+5V")
-		(at 130.81 104.14 0)
+		(lib_id "V2_Capacitor:1608_0u1")
+		(at 127 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -951,10 +1229,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8474d786-1984-400b-83fa-5a441a789254")
-		(property "Reference" "#PWR301"
-			(at 130.81 107.95 0)
-			(hide yes)
+		(uuid "7ad85bf9-eacf-4889-bd96-7eb8f1ad0b9d")
+		(property "Reference" "C801"
+			(at 134.62 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0u1"
+			(at 132.08 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -963,18 +1251,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 130.81 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 104.14 0)
+		(property "Footprint" "V2_Capacitor_SMD:C_1608"
+			(at 127 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -985,7 +1263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 104.14 0)
+			(at 127 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -996,7 +1274,142 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 104.14 0)
+			(at 127 115.062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "810-CGA3E2X7R1H104MA"
+			(at 127 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 127 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product" "CGA3E2X7R1H104M080AA"
+			(at 127 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V"
+			(at 127 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 127 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c45c434-0aac-4c9d-8779-15f0472fb91d")
+		)
+		(pin "2"
+			(uuid "b16ea65e-43f7-45af-9030-a5fc901b20ae")
+		)
+		(instances
+			(project "control"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
+					(reference "C801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:+5V")
+		(at 130.81 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8474d786-1984-400b-83fa-5a441a789254")
+		(property "Reference" "#PWR046"
+			(at 130.81 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1012,7 +1425,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "#PWR301")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1020,7 +1433,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+5V")
-		(at 161.29 106.68 90)
+		(at 161.29 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1029,8 +1442,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f9993c5-1cb5-4f79-90b6-cc9698d6f2e5")
-		(property "Reference" "#PWR302"
-			(at 165.1 106.68 0)
+		(property "Reference" "#PWR048"
+			(at 165.1 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1041,7 +1454,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 106.68 90)
+			(at 154.94 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1051,7 +1464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 106.68 0)
+			(at 161.29 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1062,7 +1475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 106.68 0)
+			(at 161.29 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1073,7 +1486,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 106.68 0)
+			(at 161.29 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1089,7 +1502,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "#PWR302")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1097,7 +1510,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 130.81 115.57 0)
+		(at 130.81 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1106,8 +1519,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e379c67-1038-458b-8657-9bdaf7bc7f32")
-		(property "Reference" "#PWR304"
-			(at 130.81 121.92 0)
+		(property "Reference" "#PWR047"
+			(at 130.81 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1118,7 +1531,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 120.65 0)
+			(at 130.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,7 +1542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 115.57 0)
+			(at 130.81 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,7 +1553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 115.57 0)
+			(at 130.81 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1151,7 +1564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 115.57 0)
+			(at 130.81 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1167,7 +1580,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "#PWR304")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1175,7 +1588,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 166.37 111.76 0)
+		(at 166.37 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1184,8 +1597,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af4b1b23-7ef4-4634-98cb-479dc0f1a4e9")
-		(property "Reference" "J303"
-			(at 172.7201 111.76 0)
+		(property "Reference" "J8"
+			(at 172.7201 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1196,7 +1609,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 182.118 111.76 0)
+			(at 182.118 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1206,7 +1619,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 166.37 115.57 0)
+			(at 166.37 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1217,7 +1630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 115.57 0)
+			(at 166.37 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1228,7 +1641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 111.76 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1239,7 +1652,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 166.37 124.968 0)
+			(at 166.37 138.938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1663,29 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 166.37 128.27 0)
+			(at 166.37 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 166.37 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 166.37 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1266,7 +1701,85 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "J303")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:GND")
+		(at 127 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be9b4145-fd5a-406f-9c88-bbc80a6e503e")
+		(property "Reference" "#PWR0802"
+			(at 127 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6075ec69-ed4e-4275-8f4a-19e5c0feb8fc")
+		)
+		(instances
+			(project "control"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -1274,7 +1787,7 @@
 	)
 	(symbol
 		(lib_id "V2_74xGxx:74AHC1G125")
-		(at 129.54 111.76 0)
+		(at 129.54 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1283,8 +1796,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daf68655-aa55-4b9c-86a8-7d43f8a20570")
-		(property "Reference" "U301"
-			(at 120.015 102.87 0)
+		(property "Reference" "U4"
+			(at 120.015 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1294,7 +1807,7 @@
 			)
 		)
 		(property "Value" "74AHC1G125"
-			(at 123.825 105.41 0)
+			(at 123.825 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1304,7 +1817,7 @@
 			)
 		)
 		(property "Footprint" "V2_Package_TO_SOT_SMD:SOT-23-5"
-			(at 129.54 111.76 0)
+			(at 129.54 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1315,7 +1828,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 130.81 124.46 0)
+			(at 130.81 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1326,7 +1839,7 @@
 			)
 		)
 		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-			(at 129.54 111.76 0)
+			(at 129.54 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1337,7 +1850,7 @@
 			)
 		)
 		(property "Mouser" "595-SN74AHC1G125DBVR"
-			(at 129.54 139.7 0)
+			(at 129.54 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +1861,7 @@
 			)
 		)
 		(property "Product" "SN74AHC1G125DBVR"
-			(at 129.54 137.16 0)
+			(at 129.54 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1359,7 +1872,29 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 129.54 134.62 0)
+			(at 129.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "74xGxx:${SYMBOL_NAME}"
+			(at 129.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "8mA"
+			(at 129.54 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1387,7 +1922,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "U301")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1395,7 +1930,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 166.37 106.68 0)
+		(at 166.37 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1404,8 +1939,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e430b2c2-7fb4-42ca-9d70-a16107b2697d")
-		(property "Reference" "J301"
-			(at 172.7201 106.68 0)
+		(property "Reference" "J6"
+			(at 172.7201 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1416,7 +1951,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 182.118 106.68 0)
+			(at 182.118 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1426,7 +1961,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 166.37 110.49 0)
+			(at 166.37 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1437,7 +1972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 110.49 0)
+			(at 166.37 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1448,7 +1983,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 106.68 0)
+			(at 166.37 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1459,7 +1994,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 166.37 119.888 0)
+			(at 166.37 133.858 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1470,7 +2005,29 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 166.37 123.19 0)
+			(at 166.37 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 166.37 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1486,7 +2043,85 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
-					(reference "J301")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:+5V")
+		(at 127 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1d76941-4a21-485d-83ce-3963b9b5141e")
+		(property "Reference" "#PWR0801"
+			(at 127 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 127 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 92 187 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40ad63eb-e006-4cc0-9502-7564d97c4806")
+		)
+		(instances
+			(project "control"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/5f5e72e5-c350-462a-acce-1ea601b00ae4"
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)

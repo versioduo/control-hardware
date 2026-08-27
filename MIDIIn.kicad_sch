@@ -6,8 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 control")
-		(date "2026-03-30")
-		(rev "2026-03-30")
+		(date "2026-08-27")
+		(rev "2026-08-27")
+		(company "Versio Duo")
+		(comment 1 "Instrument Controller")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:1608_0u1"
@@ -24,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -35,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -46,7 +48,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_1608"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -80,6 +82,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -300,6 +313,28 @@
 			)
 			(property "Manufacturer" "Same Sky"
 				(at 0 -33.02 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Audio:${SYMBOL_NAME}"
+				(at 0 -27.94 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "2.5mm"
+				(at 0 -40.64 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -669,27 +704,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 7.62 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "PMEG2010EPK"
-				(at 0 5.08 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SOD-1608"
-				(at 0 -4.445 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -722,7 +759,7 @@
 				)
 			)
 			(property "Mouser" "771-PMEG2010EPK"
-				(at 0 -12.7 0)
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -732,8 +769,19 @@
 					)
 				)
 			)
+			(property "Id" "Diode:${SYMBOL_NAME}"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Product" "PMEG2010EPK"
-				(at 0 -10.16 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -744,7 +792,7 @@
 				)
 			)
 			(property "Manufacturer" "Nexperia "
-				(at 0 -7.62 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -755,7 +803,7 @@
 				)
 			)
 			(property "Rating" "20V"
-				(at 0 -15.24 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -934,6 +982,28 @@
 			)
 			(property "Manufacturer" "Toshiba"
 				(at 0 -30.48 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Optocoupler:${SYMBOL_NAME}"
+				(at 0 -25.4 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "15Mbps"
+				(at 0 -38.1 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1363,27 +1433,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "220R"
-				(at 4.064 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "220R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_1608"
-				(at 0 -15.748 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1417,6 +1489,17 @@
 			)
 			(property "Mouser" "71-CRCW0603220RFKEAH"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Resistor:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1549,7 +1632,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2019,7 +2102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f61fc49-4b3c-47aa-ae6d-bd2672583d5c")
-		(property "Reference" "#PWR404"
+		(property "Reference" "#PWR052"
 			(at 187.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2080,7 +2163,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR404")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2097,7 +2180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5032212f-d852-40b1-8b09-65abd10e79fd")
-		(property "Reference" "R401"
+		(property "Reference" "R6"
 			(at 156.21 102.235 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2194,6 +2277,17 @@
 				)
 			)
 		)
+		(property "Id" "Resistor:${SYMBOL_NAME}"
+			(at 170.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1417ba9-1a7d-406b-93c8-2c84cabf440b")
 		)
@@ -2203,7 +2297,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "R401")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2220,7 +2314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59de0765-f7da-444e-b4e0-ed2ee7a891c8")
-		(property "Reference" "#PWR402"
+		(property "Reference" "#PWR050"
 			(at 149.86 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2281,7 +2375,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR402")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2298,7 +2392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60509237-0c50-404e-9d94-da81e9d83bf3")
-		(property "Reference" "C402"
+		(property "Reference" "C11"
 			(at 143.5162 90.805 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,6 +2491,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "82dfbb0d-8516-4e1d-898d-15e75a7677ca")
 		)
@@ -2406,7 +2511,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "C402")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2423,7 +2528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aaeda754-d611-45ae-83e4-da00f71803e8")
-		(property "Reference" "D401"
+		(property "Reference" "D4"
 			(at 163.83 102.5524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2522,6 +2627,17 @@
 				)
 			)
 		)
+		(property "Id" "Diode:${SYMBOL_NAME}"
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1431eeae-8570-411a-a9fd-263bb2d693d2")
 		)
@@ -2531,7 +2647,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "D401")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2548,7 +2664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b612171c-51c9-4d61-ae59-88034e9c0c4b")
-		(property "Reference" "U401"
+		(property "Reference" "U5"
 			(at 199.39 117.7036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2637,6 +2753,28 @@
 				)
 			)
 		)
+		(property "Id" "Optocoupler:${SYMBOL_NAME}"
+			(at 187.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15Mbps"
+			(at 187.96 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed1f9628-fa10-4451-a265-911c920c7587")
 		)
@@ -2655,7 +2793,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "U401")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2672,7 +2810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be905a13-54ce-4015-b726-7b49a1ec6f7e")
-		(property "Reference" "C401"
+		(property "Reference" "C12"
 			(at 196.85 93.3512 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2771,6 +2909,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 193.04 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be2d873f-5cb6-4995-85c4-09e11be8694e")
 		)
@@ -2780,7 +2929,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "C401")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2797,7 +2946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d324686e-af6a-48dd-9137-54989905b8a7")
-		(property "Reference" "J401"
+		(property "Reference" "J9"
 			(at 108.966 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,6 +3035,28 @@
 				)
 			)
 		)
+		(property "Id" "Audio:${SYMBOL_NAME}"
+			(at 116.84 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "2.5mm"
+			(at 116.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef00c43f-cfcc-41c1-b1d4-51b03c417b0e")
 		)
@@ -2904,7 +3075,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "J401")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2921,7 +3092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9caf35a-0e4b-4d90-885e-46c9c749e0c2")
-		(property "Reference" "#PWR401"
+		(property "Reference" "#PWR051"
 			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2981,7 +3152,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR401")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2998,7 +3169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd2fa09d-e317-4510-a889-31de0e16c925")
-		(property "Reference" "#PWR403"
+		(property "Reference" "#PWR053"
 			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3059,7 +3230,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/ae0f3fb3-3b08-46e7-ba0a-341c37aaf317"
-					(reference "#PWR403")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

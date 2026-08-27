@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 control")
-		(date "2026-03-30")
-		(rev "2026-03-30")
-		(company "+5V")
+		(date "2026-08-27")
+		(rev "2026-08-27")
+		(company "Versio Duo")
+		(comment 1 "Instrument Controller")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:1608_0u1"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -47,7 +48,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_1608"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -81,6 +82,17 @@
 			)
 			(property "Mouser" "810-CGA3E2X7R1H104MA"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -225,7 +237,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -236,7 +248,7 @@
 				)
 			)
 			(property "Value" "1u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -247,7 +259,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_1608"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -281,6 +293,17 @@
 			)
 			(property "Mouser" "810-CGA3E3X7R1H105K0"
 				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -425,7 +448,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -436,7 +459,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -447,7 +470,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_3225"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -480,7 +503,18 @@
 				)
 			)
 			(property "Mouser" "810-CNC6P1X7R1H106K2"
-				(at 0 -22.86 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -491,7 +525,7 @@
 				)
 			)
 			(property "Rating" "50V"
-				(at 0 -20.32 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -625,7 +659,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -636,7 +670,7 @@
 				)
 			)
 			(property "Value" "22u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -647,7 +681,7 @@
 				)
 			)
 			(property "Footprint" "V2_Capacitor_SMD:C_3225"
-				(at 0 -17.018 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -680,7 +714,18 @@
 				)
 			)
 			(property "Mouser" "810-CGA6P3X7R1E226M5"
-				(at 0 -22.86 0)
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Capacitor:${SYMBOL_NAME}"
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -691,7 +736,7 @@
 				)
 			)
 			(property "Rating" "25V"
-				(at 0 -20.32 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -843,7 +888,7 @@
 				)
 			)
 			(property "Footprint" "V2_Converter_DCDC:QFN-11"
-				(at 0 -38.1 0)
+				(at 0 -46.99 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -880,6 +925,17 @@
 			(property "Mouser" "595-SM33620S5QRDNRQ1"
 				(at 0 -48.26 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "DCDC:${SYMBOL_NAME}"
+				(at 0 -44.45 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1588,7 +1644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "122d2015-022e-4565-b9ed-e33047e2a5a6")
-		(property "Reference" "#PWR504"
+		(property "Reference" "#PWR059"
 			(at 194.31 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1649,7 +1705,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR504")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1666,7 +1722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b3198a0-b3e0-4c86-934b-2a7e0a710e44")
-		(property "Reference" "#PWR507"
+		(property "Reference" "#PWR056"
 			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1727,7 +1783,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR507")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1744,7 +1800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "352e4e7b-0b89-4d1b-beef-4dde2f21cba5")
-		(property "Reference" "U501"
+		(property "Reference" "U6"
 			(at 151.13 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1843,6 +1899,17 @@
 				)
 			)
 		)
+		(property "Id" "DCDC:${SYMBOL_NAME}"
+			(at 158.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e181a19-42df-47f3-8620-b650dd287d9d")
 		)
@@ -1879,7 +1946,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "U501")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1896,7 +1963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "515471eb-7da7-4a43-a015-31984dc0939f")
-		(property "Reference" "#PWR503"
+		(property "Reference" "#PWR055"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1957,7 +2024,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR503")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1974,7 +2041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56280050-b0bf-4659-a8cc-7ab6e2f09588")
-		(property "Reference" "C501"
+		(property "Reference" "C13"
 			(at 110.49 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2073,6 +2140,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 107.95 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "413eede5-6e7c-4576-9cb9-a2f2af9fb262")
 		)
@@ -2082,7 +2160,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "C501")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2099,7 +2177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "583060ee-d321-49bf-b2d8-c223f030b421")
-		(property "Reference" "C505"
+		(property "Reference" "C15"
 			(at 134.366 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,6 +2276,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 120.65 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6a9f9504-2aad-4292-8e3c-492264449cce")
 		)
@@ -2207,7 +2296,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "C505")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6792daf0-97e3-4c13-8e60-608e8c514e91")
-		(property "Reference" "C503"
+		(property "Reference" "C16"
 			(at 196.85 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,6 +2412,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 194.31 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba5a7006-ee21-4c49-83e1-df4d838fe3bd")
 		)
@@ -2332,7 +2432,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "C503")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2349,7 +2449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "906a5d01-a513-459b-8cad-aafdb312ab99")
-		(property "Reference" "C502"
+		(property "Reference" "C14"
 			(at 121.92 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2448,6 +2548,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 119.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30da6387-ae8a-45f9-a395-cd7858909548")
 		)
@@ -2457,7 +2568,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "C502")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2474,7 +2585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf685b96-7c7d-44be-b24a-00f1abf842f4")
-		(property "Reference" "#PWR502"
+		(property "Reference" "#PWR054"
 			(at 107.95 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2535,7 +2646,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR502")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d89961b5-2bff-4104-b821-0e24eea3b3ff")
-		(property "Reference" "#PWR509"
+		(property "Reference" "#PWR057"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2613,7 +2724,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR509")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df265dc8-58a3-4ad0-bb04-dbe45bda8f84")
-		(property "Reference" "#PWR505"
+		(property "Reference" "#PWR061"
 			(at 205.74 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2691,7 +2802,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR505")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5300095-9ce2-40bd-aebe-f4d64f867e7b")
-		(property "Reference" "#PWR501"
+		(property "Reference" "#PWR060"
 			(at 205.74 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2768,7 +2879,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR501")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2785,7 +2896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed3b64f6-3432-4365-801a-1f7ca0ea7d87")
-		(property "Reference" "#PWR508"
+		(property "Reference" "#PWR058"
 			(at 158.75 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2846,7 +2957,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "#PWR508")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2863,7 +2974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee2ed22f-fd8d-45a9-8700-ad7d07fcade5")
-		(property "Reference" "C504"
+		(property "Reference" "C17"
 			(at 208.28 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2962,6 +3073,17 @@
 				)
 			)
 		)
+		(property "Id" "Capacitor:${SYMBOL_NAME}"
+			(at 205.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "66e6e686-e749-46ac-b75b-68e13053c938")
 		)
@@ -2971,7 +3093,7 @@
 		(instances
 			(project "control"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/24a9dc0c-cb3c-464a-a734-f09bf949d71a"
-					(reference "C504")
+					(reference "C17")
 					(unit 1)
 				)
 			)

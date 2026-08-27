@@ -51,7 +51,23 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -148,8 +164,8 @@
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -253,7 +269,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2026-03-30"
+      "sch_revision": "2026-08-27"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -510,7 +526,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.175,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -601,7 +617,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB",
-        "pattern": "/USB*"
+        "pattern": "*/USB*"
       },
       {
         "netclass": "Ground",
@@ -609,7 +625,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/?\\+[0-9]*V.*"
+        "pattern": ".*/\\+.*|\\+.*"
       },
       {
         "netclass": "Link",
@@ -633,7 +649,7 @@
       },
       {
         "netclass": "I2C",
-        "pattern": "/SDA|/SCK|"
+        "pattern": "I2C-.*|.*SDA|.*SCL"
       }
     ]
   },
@@ -775,7 +791,7 @@
         "uuid": "6c8448b4-b04d-47e1-934e-e40cbe27a7be"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SPACER1-4,TVS1-2,J1-9,PLUG1,#FLG1-4,SWB1,H1-6,R1-6,FID1-3,Y1,D1-4,#PWR1-62,#PWR801-802,U1-6,C1-17,C801,SW1-2,ESD1,ICON1-6,INFO1-2",
     "variants": []
   },
   "sheets": [
